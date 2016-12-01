@@ -1,0 +1,91 @@
+/* app css stylesheet */
+
+body{
+    background-color: #FAF8EF;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    margin-top: 0;
+    font-size: 70px;
+}
+table {
+    background-color: #776E65;
+    border-radius: 6px;
+    padding: 4px;
+    margin: auto;
+}
+#div-score {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #BBADA0;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+}
+#score {
+    color: white;
+}
+td {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid #776E65;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+}
+
+.a {
+    background-color: #CDC1B5;
+    color: #CDC1B5;
+}
+.b {
+    background-color: #EEE4DA;
+}
+.c {
+    background-color: #ECE0C6;
+}
+.d {
+    background-color: #F2B179;
+    color: white;
+}
+.e {
+    background-color: #F59563;
+    color: white;
+}
+.f {
+    background-color: #F67C5F;
+    color: white;
+}
+.g {
+    background-color: #F65E3B;
+    color: white;
+}
+.h {
+    background-color: #EDCF72;
+    color: white;
+}
+.i {
+    background-color: #EDCC61;
+    color: white;
+}
+.j {
+    background-color: #EDC850;
+    color: white;
+}
+.k {
+    background-color: #EDCE71;
+    color: white;
+}
+.l {
+    background-color: #EDCE71;
+    color: white;
+}
+.m {
+    background-color: #EDCE71;
+    color: white;
+}

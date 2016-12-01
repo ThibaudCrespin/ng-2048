@@ -1,0 +1,23 @@
+{
+  "type": "save",
+  "size":"4",
+  "placement":[
+    {"line":[2,0,0,0]},
+    {"line":[0,0,0,0]},
+    {"line":[0,0,0,0]},
+    {"line":[0,0,0,0]}
+  ],
+  "classement":[
+    {"id":1, "name": "Bob", "score": 10000},
+    {"id":2, "name": "Kévin", "score": 9000},
+    {"id":3, "name": "Alexandre", "score": 8000},
+    {"id":4, "name": "Thibaud", "score": 7000},
+    {"id":5, "name": "Mark", "score": 6000},
+    {"id":6, "name": "Vincent", "score": 5000},
+    {"id":7, "name": "Antoine", "score": 4000},
+    {"id":8, "name": "Adrien", "score": 3000},
+    {"id":9, "name": "Brad", "score": 2000},
+    {"id":10, "name": "George", "score": 1000}
+  ]
+}
+
