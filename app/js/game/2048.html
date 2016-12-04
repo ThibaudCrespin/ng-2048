@@ -1,16 +1,18 @@
-<div>
-    <h2>
-        <div id="div-score">Votre score <div id="score">0</div></div>
-    </h2>
-</div>
-<div>
-    <table id="2048">
-        <tbody ng-repeat="table in game">
-            <tr ng-repeat="line in table">
-                <td ng-class="{ 'a': (number == 0), 'b': (number == 2), 'c': (number == 4), 'd': (number == 8) }" ng-repeat="number in line track by $index">
+<div ng-controller="GameController as ctrl" ng-keyup="ctrl.move($event);">
+    <div>
+        <h2>
+            <div id="div-score">Votre score <div id="score">{{ctrl.score}}</div></div>
+        </h2>
+    </div>
+    <div ng-init="ctrl.init();">
+        <table id="2048" ng-click="ctrl.debug();">
+            <tbody>
+            <tr ng-repeat="line in ctrl.game track by $index">
+                <td ng-class="{ 'a': (number == 0), 'b': (number == 2), 'c': (number == 4), 'd': (number == 8), 'e': (number == 16), 'f': (number == 32), 'g': (number == 64), 'h': (number == 128), 'i': (number == 256), 'j': (number == 512), 'k': (number == 1024), 'm': (number == 2048) }" ng-repeat="number in line track by $index">
                     {{number}}
                 </td>
             </tr>
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 </div>
